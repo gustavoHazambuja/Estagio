@@ -17,7 +17,7 @@ public class String_a {
         String palavra = in.nextLine();
 
         char letra = 'a';
-        String letraString = Character.toString(letra);
+        // String letraString = Character.toString(letra);
 
         for(int i = 0; i<palavra.length(); i++){
             if(palavra.toLowerCase().charAt(i) == letra){
